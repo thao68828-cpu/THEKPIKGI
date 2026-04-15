@@ -1,51 +1,139 @@
-﻿,,,,,,,,,,,,,,,,,,
-Nhóm Thẻ,Trọng số,Định nghĩa,Các lỗi sai hệ thống,,,,,,,,,,,,,,,
-B1 – Hành động đột phá,60%,"Là các hành động quan trọng nhất, mang tính thử nghiệm (Try) hoặc đột phá để đạt KGI/Thẻ A. Tuyệt đối không trùng lặp với B2. Phải đi kèm minh chứng rõ ràng.","1. Lỗi ""Copy - Paste JD"" (Biến đột phá thành việc tay chân)
+# THẺ KPI-KGI MẪU CHUẨN (B1-B5)
 
-- Bản chất lỗi: Nhân sự không hiểu ""đột phá"" là gì, tâm lý lười suy nghĩ nên lấy nguyên Mô tả công việc (Job Description) hàng ngày/hàng tuần để đắp vào B1. 
+*AN BINH FINANCE  |  Nộp trước buổi họp 1-1 với quản lý  |  Kết quả đầu ra: Bản thảo Thẻ B chuẩn bị cho buổi họp 1-1*
 
-- Biểu hiện thực tế: Thay vì tìm cách làm mới, nhân sự liệt kê các thao tác vận hành cơ học. Ví dụ: Quang Huy đưa thẳng các việc ""Viết 4 VID/ tuần"", ""Edit 4 VID"", ""Đăng 4 VID"" (Kênh STTC) và ""Viết 7 SCRIPTS, Edit 7 video, Đăng 7 video"" (Kênh BĐS) vào Thẻ B1. Tương tự với Thuỳ Trang, Tuyết Anh (Quay video, viết kịch bản).
 
-2. Lỗi ""Cắt vụn quy trình"" (Chia nhỏ việc tay chân để lấp đầy dòng)
+---
 
-- Bản chất lỗi: Để làm cho Thẻ B1 có vẻ ""dày dặn"" và nhiều việc, nhân sự lấy 1 công việc duy nhất và chẻ nhỏ thành các bước thao tác kỹ thuật.
 
-- Biểu hiện thực tế: Thay vì ghi 1 hành động B2 là ""Sản xuất và xuất bản video"", Quang Huy tách ra làm 3 gạch đầu dòng B1: (1) Viết -> (2) Edit -> (3) Đăng. Điều này làm rác Thẻ B1 và đánh tráo khái niệm về năng suất.
+**Họ và tên:** KHÁNH HUYỀN
 
-3. Lỗi ""Viết ý tưởng thô"" (Thiếu tư duy KPT - Try)
+**Bộ phận:** MKT
 
-- Bản chất lỗi: Nhân sự có ý tưởng tốt, nhưng thiếu kỹ năng chuyển hóa ý tưởng thành một ""Hành động thực thi"". Họ không áp dụng chữ ""Try"" (Thử nghiệm) trong mô hình KPT để tạo ra sự khác biệt. 
+**Tuần:** Tuần 4 | 13 - 19/04/2026
 
-- Biểu hiện thực tế: Quang Huy chỉ ghi một cụm từ cụt lủn mang tính chất chuẩn bị: ""Tìm 1 nhận định chuyên gia"", ""Search 3 Top CMT"" hay ""Liên hệ vs Chị Nga..."". Việc ""Tìm"" hay ""Search"" không tạo ra giá trị, quản lý cần ""mớm"" để biến nó thành: ""Bóc tách insight từ Top CMT để thử nghiệm định dạng nội dung mới"".
 
-4. Lỗi ""Hành động bị động"" (Tạo biến số chờ đợi)
+---
 
-- Bản chất lỗi: Thẻ B1 là để nhân sự chủ động kiến tạo kết quả, nhưng nhân sự lại thiết lập những hành động phụ thuộc hoàn toàn vào người khác.  
-- Biểu hiện thực tế: Phương Thuỷ đưa hành động ""Chờ Sếp Lâm về để trao đổi"" vào Thẻ B1. Từ ""Chờ"" là một trạng thái bị động, đi ngược lại triết lý thiết lập mục tiêu chủ động.
-",,,,,,,,,,,,,,,
-B2 – Công việc thường xuyên,20%,"Là nhiệm vụ chức năng theo JD, làm hằng ngày/tuần để duy trì hoạt động. Không được chứa hành động cốt lõi (B1).","1. Lỗi ""Sai ranh giới B2 và B3"" (Nhầm việc chuyên môn với tính tuân thủ)
 
-- Bản chất lỗi: Nhân sự không hiểu rõ chức năng của Thẻ B3. Thẻ B3 sinh ra để đánh giá mức độ chấp hành nội quy (đi làm đúng giờ) và quy định hành chính (nộp báo cáo, họp hành nội bộ). Tuy nhiên, nhân sự lại coi việc làm báo cáo là ""công việc chuyên môn"" nên nhét vào B2.
+## I. XÁC NHẬN THẺ A – Tiếp nhận & Đánh giá khả thi
 
-- Biểu hiện thực tế: Trong danh sách 10 công việc B2 của Quang Huy, mục số 10 là ""FILE NHÁP CHECK-IN 1:1"". Các nhân sự khác như Phương Thuỷ, Tuyết Anh, Thuỳ Trang cũng nhét ""Họp KPT"", ""Báo cáo Check-in"" vào B2.
+> Quản lý điền Mục tiêu Thẻ A (cột màu xám) → Nhân viên đọc, đánh giá và điền phản hồi (cột màu vàng)
 
-2. Lỗi ""Ghi vắn tắt như một từ khóa""
+| STT | Mục tiêu KGI
+(Quản lý điền) | ĐƠN VỊ | CHỈ TIÊU | Thời hạn ( QL điền) | Nhân viên đánh giá
+✅ Khả thi  /  ⚠️ Cần điều chỉnh |
+| --- | --- | --- | --- | --- | --- |
+| KGI 1 | Tăng từ   9.505K thành  10K Follower Kênh Thuỷ Vay Vốn | FOLLOWER | 495 | 2026-04-30 | ✅ Khả thi – em cam kết thực hiện |
+| KGI 2 | Tăng từ  21,6K thành  22,6K Follower An BÌnh Vay Vốn | FOLLOWER | 1000 | 2026-04-30 | ✅ Khả thi – em cam kết thực hiện |
+| KGI 3 | Sản xuất thành công 1 kịch bản Casestudy bằng AI Agent | Kịch Bản | 1 | 2026-04-30 | ✅ Khả thi – em cam kết thực hiện |
 
-- Bản chất lỗi: Nhân sự coi Thẻ B2 chỉ là chỗ ""liệt kê cho có"" nên không buồn viết thành một câu mô tả hành động hoàn chỉnh.
 
-- Biểu hiện thực tế: Thu Phương chỉ ghi một cụm từ ngắn gọn: ""Up bài FB"". Một hành động B2 chuẩn chỉnh cần được định nghĩa rõ ràng (Ví dụ: ""Tổng hợp và gửi báo cáo analytics các kênh social"" hoặc ""Backup (sao lưu) 100% source quay vào ổ cứng"").
+**📝  Phản hồi / Đề xuất điều chỉnh (nếu có):**: Nếu mục tiêu quá cao / thiếu nguồn lực → ghi đề xuất điều chỉnh trước buổi họp 1-1
 
-3. Lỗi ""Ôm đồm, lặp lại từ B1""
 
-- Bản chất lỗi: Vi phạm quy tắc tối kỵ của hệ thống: ""Không được trùng lặp với hành động B1"". Nhân sự đưa một việc vừa vào B1 để lấy điểm đột phá, lại vừa đưa vào B2 để lấy điểm thường xuyên.
+---
 
-- Biểu hiện thực tế: Mặc dù Quang Huy đã đẩy việc ""Viết, Edit, Đăng video"" vào Thẻ B1, nhưng ngay ở Thẻ B2, Huy tiếp tục liệt kê lại ""Youtube STTC: Viết 2 kịch bản"", ""Edit 2 kịch bản"", ""Đăng 2 video"".
-",,,,,,,,,,,,,,,
-B3 – Kỷ luật & Tuân thủ,10%,"Đánh giá mức độ chấp hành giờ giấc, nộp báo cáo tuần đúng deadline.","1. Gắn sai nguồn/phương pháp đo lường cho hành động — nhận diện đúng bản chất hành động nhưng chọn sai công cụ nghiệm thu.
- ",,,,,,,,,,,,,,,
-B4 – Phối hợp làm việc,10%,"Đánh giá mức độ hợp tác, chia sẻ tài nguyên với đồng nghiệp/phòng ban trong chuỗi quy trình. Phải có KPI/SLA và minh chứng đánh giá chéo.","1. Dùng từ ngữ định tính, mô tả ""kỳ vọng"" thay vì ""hành động"" — không biết bóc tách quy trình phối hợp thành thao tác cụ thể (gửi brief, trích xuất CRM, bàn giao source).
- 2. Thiếu chỉ số cam kết thời gian (SLA).
- 3. Ghi hành động quá chung chung: Thường dùng các từ như ""phối hợp để nâng cao chất lượng"" thay vì chỉ rõ việc làm (như gửi source quay, chia sẻ file, lấy thông tin case study)",,,,,,,,,,,,,,,
-B5 – Phát triển năng lực,10%,"Đánh giá tự học, nghiên cứu, nâng cao nghiệp vụ. Bắt buộc phải có file/link cụ thể làm bằng chứng, không chấp nhận báo cáo miệng.","1. Nêu hành động thiếu tính ứng dụng (thiếu điểm neo) — đưa ra hành động ""Cài đặt và thực hành"" chung chung, không gắn việc học công cụ vào task cụ thể.
 
-",,,,,,,,,,,,,,,
+## II. TỰ LẬP THẺ B – Xây dựng 5 nhóm hành động
+
+> Nhân viên tự điền — Trả lời 4 câu hỏi: Tôi sẽ làm GÌ?  Bao NHIÊU?  Khi NÀO?  OUTPUT trả ra là GÌ?
+
+### B1: HÀNH ĐỘNG CỐT LÕI (CSF) - Trọng số 50%
+
+💡 💡 Việc quan trọng nhất để đạt KGI Thẻ A — PHẢI có con số cụ thể
+
+| STT | Tôi sẽ làm GÌ?
+(Hành động cụ thể) | Chỉ số đo lường
+ (KPI / SLA) | Tần suất | Deadline 
+(Ngày - giờ) | 📦 OUTPUT trả ra
+(Minh chứng hoàn thành là gì?) |
+| --- | --- | --- | --- | --- | --- |
+| KGI 1 - CSF 1 | Phỏng vấn trực tiếp 2 Chuyên gia (Expert)  mỗi tuần để lấy insight thực tế xây dựng Case Study theo 4F Framework. | 2 | TUẦN | 2026-04-19 | Larksheet |
+| KGI 2 - CSF 1 | Thử nghiệm (A/B Testing) 4 kịch bản Case Study theo định dạng nội dung mới để test phản ứng của khán giả | 4 | TUẦN | 2026-04-19 | Larksheet |
+| KGI 3 - CSF 1 | Hoàn thiện và ban hành 1 Workflow chuẩn hóa quy trình sản xuất Case Study | 1 | TUẦN | 2026-04-19 | Larksheet |
+| KGI 3 - CSF 2 | Áp dụng và thử nghiệm 10 skill tạo lệnh AI khác nhau để sản xuất kịch bản, nhằm đánh giá chất lượng đầu ra | 10 | TUẦN | 2026-04-19 | Larksheet |
+
+
+**Lưu ý:** ✅  OUTPUT = bằng chứng quản lý có thể click kiểm tra ngay — ghi link cụ thể, không ghi chung chung
+
+### B2: CÔNG VIỆC THƯỜNG XUYÊN (JD) - Trọng số 20%
+
+💡 💡 Việc hàng ngày theo mô tả công việc — KHÔNG trùng với B1
+
+| STT | Tôi sẽ làm GÌ?
+(Hành động cụ thể) | Chỉ số đo lường
+ (KPI / SLA) | Tần suất | Deadline 
+(Ngày - giờ) | 📦 OUTPUT trả ra
+(Bằng chứng hoàn thành là gì?) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Viết Script cho kênh ABVV | 3 NEW<br>1 CASESTUDY + 1 VALUE | TUẦN | 2026-04-13 | VAYVON MỚI |
+| 2 | Viết Script  cho kênh  TVV | 1 NEW<br>4 CASESTUDY | TUẦN | 2026-04-13 | Thủy Bank |
+| 3 | Research TOPIC cùng VJ | 5 TOPIC | TUẦN | 2026-04-17 | Tổng hợp nguồn |
+
+
+**Lưu ý:** ✅  B2 là việc duy trì nền — nếu thấy trùng B1 hãy tách ra, mỗi việc chỉ xuất hiện ở 1 nhóm
+
+### B3: KỶ LUẬT & TUÂN THỦ - Trọng số 10%
+
+💡 💡 Điền sẵn — NV đọc & cam kết. Hệ thống tự đo, vi phạm trừ điểm tự động
+
+| STT | Tôi sẽ làm GÌ?
+(Hành động cụ thể) | Chỉ số đo lường
+ (KPI / SLA) | Tần suất | Deadline 
+(Ngày - giờ) | 📦 OUTPUT trả ra
+(Bằng chứng hoàn thành là gì?) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Đi làm đúng giờ<br>(check-in lúc 8h30) | 10đ – trừ 1đ/lần đi trễ | TUẦN | Hệ thống tự động | Dữ liệu chấm công tự động<br>(Hành chính xuất cuối tuần) |
+| 2 | Nộp CHECK IN 1-1 đúng deadline | 10đ – trừ 1đ/lần, trừ 2đ/lần không nộp | TUẦN | 2026-04-17 | Larksheet |
+| 3 | HỌP KPT | 1 buổi/tuần – vắng không phép trừ 2đ | TUẦN | 2026-04-17 | Larksheet |
+| 4 | HỌP LỊCH SẢN XUẤT | 1 buổi/tuần – vắng không phép trừ 2đ | TUẦN | 2026-04-17 | THUYVAYVON_LỊCH SẢN XUẤT |
+
+
+**Lưu ý:** ✅  B3: OUTPUT do hệ thống tự tạo — NV không cần điền thêm. Vi phạm trừ điểm tự động (-1đ/lần trễ)
+
+### B4: PHỐI HỢP LÀM VIỆC - Trọng số 10%
+
+💡 💡 Liệt kê đầu mối phối hợp & cam kết — cuối tháng đồng nghiệp đánh giá chéo
+
+| STT | Tôi sẽ làm GÌ?
+(Hành động cụ thể) | Chỉ số đo lường
+ (KPI / SLA) | Tần suất | Deadline 
+(Ngày - giờ) | 📦 OUTPUT trả ra
+(Bằng chứng hoàn thành là gì?) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Chủ động gửi yêu cầu và nhận chuyển giao số liệu đo lường hiệu quả kênh TikTok từ Khối Chuyển Đổi Số hàng tuần để tối ưu nội dung. | 1 Report | TUẦN | 2026-03-16 | Data tiktok |
+| 2 | Phối hợp bộ phận Sale / Sale Admin để trích xuất dữ liệu, lấy thông tin Case Study khách hàng thực tế từ hệ thống CRM làm chất liệu viết nội dung | 5 Case Study | TUẦN | 2026-03-17 | LarkSheet |
+
+
+**Lưu ý:** ✅  Cuối tháng đồng nghiệp đánh giá chéo B4 — OUTPUT ở đây là bằng chứng NV thực sự đã phối hợp
+
+### B5: PHÁT TRIỂN NĂNG LỰC - Trọng số 10%
+
+💡 💡 Ghi rõ sẽ học gì & OUTPUT cụ thể — Không có OUTPUT = không tính điểm
+
+| STT | Tôi sẽ làm GÌ?
+(Hành động cụ thể) | Chỉ số đo lường
+ (KPI / SLA) | Tần suất | Deadline 
+(Ngày - giờ) | 📦 OUTPUT trả ra
+(Bằng chứng hoàn thành là gì?) |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Nghiên cứu cách sử dụng Antigravity và áp dụng thử nghiệm vào một công việc/quy trình thực tế. | 1 Sản phẩm | TUẦN | 2026-04-18 |  |
+| 2 | Cài đặt và thiết lập hệ thống ghi chú/quản lý tài liệu (Note-taking) cá nhân trên nền tảng Obsidian | 1 hệ thống quản lý dữ liệu | TUẦN | 2026-04-18 |  |
+| 3 | Thực hành dùng Notebook LM để tải dữ liệu, phân tích và tóm tắt tài liệu chuyên môn. | 1 bản phân tích/tóm tắt tài liệu | TUẦN | 2026-04-18 |  |
+
+
+**Lưu ý:** ✅  OUTPUT B5 phải là file/link cụ thể — không chấp nhận 'em có học' mà không có bằng chứng
+
+
+---
+
+
+### ✍️ CAM KẾT VÀ XÁC NHẬN
+
+- **Nhân viên ký & ghi ngày:**
+
+- **Quản lý xác nhận & ghi ngày:**
+
+
+> 📋  Sau khi quản lý ký duyệt → Thẻ B chốt chính thức vào hệ thống. Cột OUTPUT là căn cứ để quản lý kiểm soát hàng tuần.
