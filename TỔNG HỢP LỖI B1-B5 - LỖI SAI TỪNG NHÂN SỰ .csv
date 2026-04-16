@@ -1,0 +1,106 @@
+﻿STT,Nhân sự,Vị trí,Tên lỗi,Mô tả chi tiết
+1,QUANG HUY,B1-B2,Không phân biệt được công việc giữa B1 và B2,Đưa 6 công việc lặp lại hàng ngày (Viết/Edit/Đăng VID kênh STTC & BĐS) vào Thẻ B1 thay vì B2
+2,QUANG HUY,B2,Cắt vụn hành động ,Tách 1 quy trình 'Sản xuất & xuất bản video' thành 3 dòng thao tác: Viết → Edit → Đăng
+3,QUANG HUY,B1,Viết ý tưởng thô – Thiếu định lượng,"Ghi cụt lủn 'Tìm 1 nhận định chuyên gia', 'Search 3 Top CMT' – không thể hiện tác động trực tiếp tạo Lead/Follow"
+4,QUANG HUY,B2-B3,Sai ranh giới B2 → B3,Đưa 'FILE NHÁP CHECK-IN 1:1' vào nhóm công việc chuyên môn (B2) thay vì Kỷ luật (B3)
+5,QUANG HUY,B4,Bỏ trống hoàn toàn Thẻ B4,Không thiết lập bất kỳ hành động phối hợp nào – vi phạm đánh giá 10% phối hợp trong chuỗi quy trình
+6,QUANG HUY,B1,Thiếu tinh thần Thử nghiệm (Try),"Tất cả hành động B1 là lặp lại quy trình cũ, không có hành động 'phá format' hay 'thử kênh mới'"
+8,QUANG HUY,B5,Copy-paste B5 – Không cá nhân hóa,"Học tập giống hệt 5 nhân sự còn lại ('Cài đặt Obsidian', 'Nghiên cứu Antigravity') – không gắn với đặc thù công việc"
+9,QUANG HUY,Thẻ A,Thẻ A thiếu ngưỡng TC (chỉ tiêu tối thiểu),"KGI 1: 52K Follower, KGI 2: 3K Follower – chỉ có 1 ngưỡng CT, không có TC.
+ Thiếu TC → không phân biệt 'đạt cơ bản' với 'xuất sắc' → điểm Thẻ A tính sai."
+10,QUANG HUY,B1 – CSF 1&2,"CSF 1&2 là hành động tra cứu, không tạo output","'Tìm 1 nhận định chuyên gia' và 'Search 3 Top CMT': 'Tìm' và 'Search' là động từ tra cứu.
+ Sau khi tìm xong thì làm gì? Không có hành động chuyển hóa insight → nội dung."
+11,QUANG HUY,B1 – Nội tại,Mâu thuẫn: CSF1 ra 1 nhận định nhưng CSF3 yêu cầu 4 scripts,"CSF1: KPI=1 nhận định → CSF3 ghi 'Viết 4 VID từ output của CSF1' KPI=4 SCRIPTS.
+ Từ 1 nhận định không thể ra 4 scripts – mâu thuẫn logic nội tại trong thẻ."
+12,QUANG HUY,B1 – Số lượng,B1 có 9 CSF – vượt xa quy chuẩn 3 hành động cốt lõi,"Đếm thực tế: 9 dòng CSF. Hướng dẫn quy định B1 có 3 hành động.
+ 9 CSF → mỗi hành động chỉ còn ~6.7% tầm quan trọng → mất ý nghĩa 'cốt lõi'."
+15,QUANG HUY,B2 – Số lượng,"B2 có 10 dòng – nhiều hơn cả B1, nghịch lý trọng số","B1 (60%) có 9 dòng, B2 (20%) có 10 dòng. B2 phình to hơn B1.
+ Quy chuẩn: B2 có 2 nhiệm vụ chính. 10 dòng = chưa phân biệt được JD thực sự."
+16,THUỲ TRANG,B1-B2,Đánh tráo bản chất B1-B2,Đưa sản xuất video/tuần (Viết/Edit/Đăng) lấp đầy Thẻ B1 – biến đột phá thành dây chuyền cơ học
+17,THUỲ TRANG,B4,Định tính mơ hồ – Mất kết nối với số,"Dùng từ 'Kiểm soát', 'Phát triển kênh', 'Phát triển tốt' – chung chung, không đo đếm được"
+18,THUỲ TRANG,B2-B3,Nhầm lẫn giữa JD và Kỷ Luật ,Đưa 'FILE NHÁP CHECK-IN 1:1' vào Thẻ B2 thay vì B3
+19,THUỲ TRANG,B4,Nhầm trách nhiệm cá nhân thành hành động phối hợp,"'Kiểm soát số lượng kịch bản' là trách nhiệm của bản thân Trang, không phải thao tác phối hợp với bộ phận khác"
+20,THUỲ TRANG,B4,Thiếu SLA – Không có cam kết thời gian phối hợp,Không có chỉ số thời gian (ví dụ: 'phản hồi brief trong 24h') – vi phạm yêu cầu SLA trong phối hợp
+21,THUỲ TRANG,B1,Hành động B1 không liên kết trực tiếp đến KGI Thẻ A,Không trả lời được: 'Nếu Trang sản xuất đủ số video → con số nào trên Thẻ A thay đổi?'
+23,TUYẾT ANH,B1-B2,Không phân biệt được công việc giữa B1 và B2,"Đưa tác vụ 'Quay 3 VID', 'Viết 3 KỊCH BẢN' vào nhóm hành động đột phá (B1)"
+24,TUYẾT ANH,B2-B3,Nhầm lẫn giữa JD và Kỷ Luật ,"Nhét 'Họp KPT' vào Thẻ B2 – họp kiểm tra tiến độ là hành vi tuân thủ, thuộc B3"
+25,TUYẾT ANH,B3,Gắn sai công cụ đo lường,Đo 'Nộp báo cáo đúng deadline' bằng 'Dữ liệu máy chấm công vân tay' – hai bản chất hoàn toàn khác nhau
+26,TUYẾT ANH,B5,Copy-paste B5 – Không cá nhân hóa,"Học tập giống hệt 5 người còn lại, không gắn với chuyên môn quay phim/diễn xuất của Tuyết Anh"
+27,TUYẾT ANH,B1,Thiếu tinh thần Thử nghiệm – Không có hành động đột phá mới,"Toàn bộ B1 là công việc quen thuộc – không có 'thử format mới', 'thử kênh mới' để tạo đòn bẩy"
+29,TUYẾT ANH,Thẻ A – KGI,"Thẻ A đặt 'Test kênh' là mục tiêu – đây là hành động, không phải KGI","A1: 'Test kênh HỘ KINH DOANH POV', A2: 'Test kênh HỘ KINH DOANH CHO CÔNG TY'.
+ 'Test' là hành động thử nghiệm. KGI phải là kết quả: Follow, View, Lead, Engagement."
+30,TUYẾT ANH,Thẻ A – DVT,"DVT 'VIDEO' đo sản lượng sản xuất, không đo kết quả kinh doanh","A1 & A2 DVT = VIDEO. 15 video test kênh không nói lên kênh có tiềm năng không.
+ DVT đúng: Follower mới, Views trung bình, Tỷ lệ giữ chân, Lead KYC."
+31,TUYẾT ANH,Thẻ A – KGI mapping,"B1 có KGI 2&3 nhưng Thẻ A chỉ có A1, A2 – KGI không khớp","CSF trong B1 gắn với KGI 1, KGI 2, KGI 3 nhưng Thẻ A chỉ có 2 dòng.
+ KGI 2&3 trong B1 không có mục tiêu tương ứng ở Thẻ A → không được tính điểm."
+32,TUYẾT ANH,B1 – Thứ tự,"CSF 1 là QUAY, CSF 2 là VIẾT – thứ tự ngược quy trình","KGI1-CSF1: QUAY 3 VID → KGI1-CSF2: VIẾT 3 KỊCH BẢN.
+ Quy trình chuẩn: VIẾT → QUAY → EDIT → ĐĂNG. Thứ tự ngược = không thể thực thi đúng."
+33,TUYẾT ANH,B2 – Dòng 2,'Hỗ trợ kênh Đạt' phụ thuộc lịch người khác – KPI không kiểm soát được,"B2-2: 'Hỗ trợ làm kịch bản và đi quay kênh Đạt – 7 kịch bản'.
+ Nếu Đạt không cần → KPI tự động về 0. Rủi ro ngoài tầm kiểm soát của Tuyết Anh."
+34,TUYẾT ANH,B2 – Dòng 3,Dòng 3 gộp 3 loại nội dung khác nhau vào 1 dòng,"B2-3: 'Viết kịch bản thủy vay vốn – 5 case study + 1 Nối đầu HKD + 1 Giới thiệu gói vay NN'.
+ 3 loại kịch bản khác nhau → vi phạm '1 hành động = 1 dòng'."
+35,TUYẾT ANH,B4 – DVT,B4 dòng 2: KPI '3' không có đơn vị,"B4-2: 'Phối hợp với Sale Admin → Lấy CaseStudy từ CRM – 3'.
+ 3 case study? 3 lần? 3 cuộc họp? Thiếu DVT → không tính được % hoàn thành."
+36,TUYẾT ANH,B5 – Mâu thuẫn,Tần suất TUẦN nhưng deadline cố định 4/5/2026 – mâu thuẫn logic,"B5-1,2,3: Tần suất = TUẦN – Deadline = 4/5/2026.
+ Nếu TUẦN thì phải có output mỗi tuần. Nhưng 4/5 là ngày cứng → 2 thông tin xung đột nhau."
+37,PHƯƠNG THUỶ,B1,Thiết lập hành động bị động,"Ghi 'Chờ Sếp Lâm về để trao đổi' – từ 'Chờ' không sinh lực đẩy, vi phạm nguyên tắc B1 chủ động"
+38,PHƯƠNG THUỶ,B4,Định tính mơ hồ – Khẩu hiệu hóa,"Toàn bộ B4 dùng cụm 'nâng cao chất lượng' – từ cảm tính, không đong đếm được"
+39,PHƯƠNG THUỶ,B2-B3,Nhầm lẫn giữa JD và Kỷ Luật ,Đưa 'Họp lịch sản xuất + KPT' vào B2 (duy trì) thay vì B3 (kỷ luật)
+40,PHƯƠNG THUỶ,B1,B1 thiếu hành động Thử nghiệm có thể đo đếm,"Ngoài hành động bị động 'Chờ', phần còn lại B1 cũng không có hành động 'thử mới' nào định lượng"
+41,PHƯƠNG THUỶ,B4,Thiếu SLA và thiếu đánh giá chéo,"Không có cam kết thời gian phản hồi (SLA), không có người/bộ phận xác nhận chất lượng phối hợp"
+42,PHƯƠNG THUỶ,B5,Copy-paste B5 – Không cá nhân hóa,"Học tập giống hệt 5 nhân sự còn lại, không phù hợp với đặc thù vị trí của Thuỷ"
+44,PHƯƠNG THUỶ,Thẻ A – KGI 2,DVT 'SỐ LƯỢNG' không phải đơn vị – vi phạm chuẩn Thẻ A,"KGI 2: TỰ SẢN XUẤT NỘI DUNG TIKTOK – ĐƠN VỊ: SỐ LƯỢNG – CHỈ TIÊU: 10.
+ 'Số lượng' là từ mô tả, không phải DVT. DVT đúng: video, bài đăng, kịch bản...
+ Thiếu DVT → cột % Hoàn thành không tự tính được → điểm KGI 2 = 0."
+45,PHƯƠNG THUỶ,Thẻ A – KGI 3,Chỉ tiêu KGI 3 ghi 'CHƯA CHẠY CHƯA ĐẾM ĐƯỢC' – không có số,"KGI 3: HỖ TRỢ XỬ LÝ HỒ SƠ – CHỈ TIÊU: CHƯA CHẠY CHƯA ĐẾM ĐƯỢC.
+ Ghi thẳng vào ô Chỉ tiêu rằng không có số = không thể đánh giá. KGI này không nên tồn tại."
+46,PHƯƠNG THUỶ,Thẻ A – KGI 3,KGI 3 phụ thuộc hoàn toàn vào A Lâm – ngoài tầm kiểm soát,"Cột Nhân viên đánh giá KGI 3: 'PHỤ THUỘC VÀO A LÂM'.
+ KGI là kết quả Thuỷ chịu trách nhiệm. Phụ thuộc 100% người khác → đánh giá không công bằng.
+ Ngoài ra 'HỖ TRỢ XỬ LÝ HỒ SƠ' là nhiệm vụ JD (B2), không phải KGI Thẻ A."
+47,PHƯƠNG THUỶ,Thẻ A – KGI 2,Thời hạn KGI 2 'Phụ thuộc vào tiến độ team AI' – không có ngày cứng,"Cột Thời hạn KGI 2: 'Phụ thuộc vào tiến độ team AI'. Deadline là cam kết cứng.
+ Ghi 'phụ thuộc' = không cam kết = KGI 2 sẽ không bao giờ bị tính 'trễ deadline'."
+48,PHƯƠNG THUỶ,B1 – KGI 2 thiếu CSF,KGI 2 không có CSF nào trong B1 – mục tiêu bị bỏ lơ,"B1 có CSF cho KGI 1, KGI 3, KGI 4 – không có dòng nào gắn với KGI 2.
+ KGI 2: 'Tự sản xuất nội dung TikTok – 10'. Không có CSF → không có hành động đảm bảo → chắc chắn trượt."
+49,PHƯƠNG THUỶ,B1 – Logic CSF,CSF 'Research từ 5 nguồn' gắn KGI 3 nhưng logic không khớp,"KGI 3: HỖ TRỢ XỬ LÝ HỒ SƠ SẾP LÂM. KGI3-CSF1: Research thông tin từ Web/YouTube/Sách.
+ Research kiến thức rõ ràng phục vụ KGI 4 (Khoá học), không phải hồ sơ. Gắn sai CSF → sai cả logic thẻ."
+50,PHƯƠNG THUỶ,B2 – Dòng 1,Dòng 1 B2 gộp 2 việc khác nhau (Research + sản xuất kịch bản),"B2-1: 'Research + sản xuất kịch bản tiktok – 10 kịch bản/tuần'.
+ Research xong 10 chủ đề nhưng viết 5 kịch bản → % HT là bao nhiêu? Vi phạm '1 hành động = 1 dòng'."
+51,PHƯƠNG THUỶ,B2 – Dòng 2,KPI 'Đi quay tiktok – 10' thiếu đơn vị đo lường,B2-2: Đi quay tiktok – 10. 10 buổi quay? 10 video? 10 phút? Thiếu DVT.
+52,PHƯƠNG THUỶ,B2 – Số lượng,B2 có 6 dòng – gấp 3 quy chuẩn 2 nhiệm vụ JD,"6 dòng B2: Research kịch bản, Quay TikTok, Đo KQ, Check-in, Họp SX+KPT, Thu thập case study.
+ Quy chuẩn: 2 nhiệm vụ JD chính. 6 dòng = chưa phân biệt được JD thực sự."
+53,PHƯƠNG THUỶ,B4 – Nhầm thẻ,B4 dòng 3&4 là hoạt động học tập – nhầm B5 vào B4,"B4-3: 'Phối hợp với Huyền để nâng cao khả năng sử dụng công cụ AI'.
+ B4-4: 'Ngồi với A Khang thu thập tri thức Obsidian'. → Đây là B5 (Phát triển năng lực), không phải B4."
+54,PHƯƠNG THUỶ,B4 – KPI,B4 dòng 1&2: KPI '10' không có đơn vị,"B4-1: 'Phối hợp với CR – KPI: 10'. B4-2: 'Phối hợp với Trang – KPI: 10'.
+ 10 lần? 10 kịch bản? 10 điểm chất lượng? Không có DVT → không thể nghiệm thu."
+55,PHƯƠNG THUỶ,B4 – Deadline,Toàn bộ 4 dòng B4 không có Deadline,"Cột Deadline (Ngày-Giờ) của tất cả B4: trống.
+ B4 phụ thuộc bên thứ 3 – không có deadline thì bên kia cũng không biết phải giao trước bao giờ."
+56,PHƯƠNG THUỶ,B3 – Đánh số,"B3 đánh số nhảy STT 1 → STT 3, mất dòng STT 2","B3: STT 1 (Đi làm đúng giờ) → STT 3 (Nộp CHECK-IN). Thiếu STT 2.
+ Có thể thiếu 1 tiêu chí kỷ luật quan trọng hoặc đã xóa nhưng không cập nhật số thứ tự."
+57,THU PHƯƠNG,B1-B2,Đánh tráo bản chất B1-B2,Đưa 'Soạn 2 bản brief idea' vào B1 – đây là công việc lên ý tưởng kịch bản hàng ngày (JD)
+58,THU PHƯƠNG,B2,Ghi vắn tắt – Thiếu định lượng thao tác,Ghi cụt lủn 'Up bài FB' – thiếu định lượng như 'Reply 100% comment trong 24h'
+59,THU PHƯƠNG,B4,B4 thiếu thao tác phối hợp cụ thể với team,"Không gọi tên rõ thao tác liên phòng (gửi brief, nhận source, phê duyệt kịch bản)"
+60,THU PHƯƠNG,B5,Copy-paste B5 – Không gắn với đặc thù công việc,"Học tập giống hệt 5 người còn lại, không cá nhân hóa theo vai trò của Thu Phương"
+61,THU PHƯƠNG,B3,Chưa xác lập rõ công cụ đo lường cho B3,"Tiêu chí kỷ luật không gắn với công cụ nghiệm thu (timestamp email, link nộp file)"
+63,KHÁNH HUYỀN,B4,Định tính mơ hồ,Ghi 'phối hợp' chung chung – không gọi tên thao tác cụ thể với team Chuyển đổi số hay Sale
+64,KHÁNH HUYỀN,B5,Học tập không hình khối,Ghi 'Cài đặt và thực hành' / 'Nghiên cứu' – không trả lời 'Học bao nhiêu? Học gì?'
+65,KHÁNH HUYỀN,B1,Hành động B1 không kết nối được KGI Thẻ A,Không trả lời: 'Nếu làm xong hành động này → chỉ số nào trên Thẻ A dịch chuyển?'
+66,KHÁNH HUYỀN,B4,Thiếu SLA và thiếu đánh giá chéo,"Không có cam kết thời gian với Chuyển đổi số / Sale, không có cơ chế đánh giá chéo"
+67,KHÁNH HUYỀN,B3,Thiếu công cụ đo lường cụ thể cho B3,Không xác định công cụ nghiệm thu kỷ luật – không phân biệt được nộp báo cáo đúng hay trễ
+70,KHÁNH HUYỀN,B1 – CSF sai thẻ,"KGI3-CSF1 'Viết 3 kịch bản news/tuần' là JD thường ngày, không phải đột phá","Viết kịch bản là công việc JD hàng tuần của Content Creator, không phải CSF.
+ CSF phải là hành động 'nếu không làm → không đạt KGI'. Viết kịch bản thông thường không thỏa điều kiện."
+71,KHÁNH HUYỀN,B1 – Milestone,"CSF 'Xây dựng 1 workflow' và '10 skill' là milestone dự án, không phải KPI tuần","CSF2: Xây dựng xong 1 workflow – Tần suất: TUẦN. CSF3: Hoàn thành 10 skill – Tần suất: TUẦN.
+ Mỗi tuần xây 1 workflow và 10 skill mới? Không thực tế. Đây là milestone 1 lần, không phải KPI lặp."
+72,KHÁNH HUYỀN,B1 – KGI mapping,CSF của KGI 3 không liên quan đến mục tiêu KGI 3 (AI Agent),"KGI 3: Hoàn thành 1 AI Agent thực thi trong quy trình viết CR.
+ KGI3-CSF1: Viết 3 kịch bản news → Viết kịch bản là dùng AI Agent, không phải xây dựng AI Agent.
+ Logic nhân quả bị đảo ngược."
+73,KHÁNH HUYỀN,B1 – Deadline,Deadline CSF1 là 10/4 nhưng thẻ là tuần 23-29/3 – không khớp kỳ,"KGI1-CSF1: Deadline 2026/10/4. Thẻ ghi 'Tuần 4 | 23–29/03/2026'.
+ Tuần 23-29/3 nhưng deadline là 10/4 → trong tuần này CSF1 thực chất không cần làm gì = B1 trống."
+74,KHÁNH HUYỀN,B2 – Họp vào B2,HỌP KPT và HỌP LỊCH SẢN XUẤT đặt ở B2 – phải ở B3,B2-4: HỌP KPT. B2-5: HỌP LỊCH SẢN XUẤT. Đây là hoạt động kiểm tra tiến độ/tuân thủ nội quy → B3.
+75,KHÁNH HUYỀN,B2 – Output họp,Output 'BÁO CÁO' không đúng bản chất của Họp KPT và Họp Lịch SX,"B2-4: HỌP KPT – OUTPUT: 1 BÁO CÁO. Họp KPT ra biên bản/danh sách Try, không phải báo cáo.
+ B2-5: HỌP LỊCH SẢN XUẤT – OUTPUT: 1 BÁO CÁO. Output đúng: lịch tuần đã chốt."
+76,KHÁNH HUYỀN,B4 – Deadline qua,B4 deadline 17/3 và 18/3 đã qua khi thẻ là tuần 23-29/3,"B4-1: Deadline 2026/3/17. B4-2: Deadline 2026/3/18. Thẻ ghi tuần 23-29/3.
+ Deadline đã qua nhưng output trống → có thể đã vi phạm cam kết mà không ai phát hiện."
+77,KHÁNH HUYỀN,B5 – DVT,B5 cả 3 dòng KPI = '1' nhưng không ghi đơn vị,"B5-1: Antigravity – KPI: 1. B5-2: Obsidian – KPI: 1. B5-3: Notebook LM – KPI: 1.
+ 1 cái gì? Không thể biết bao nhiêu mới là 'xong'."
+78,KHÁNH HUYỀN,B5 – Mâu thuẫn,Tần suất TUẦN nhưng deadline 4/5/2026 – mâu thuẫn logic,"B5-1,2,3: Tần suất = TUẦN – Deadline = 4/5/2026.
+ TUẦN ngụ ý output mỗi tuần, nhưng 4/5 là ngày cứng cuối kỳ → 2 thông tin xung đột."
