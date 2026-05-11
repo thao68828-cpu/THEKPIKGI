@@ -286,7 +286,7 @@ function createKichBanSheet() {
 }
 
 // ════════════════════════════════════════════════════════════════
-//  SHEET 4: BROLL
+//  SHEET 4: BRoll
 // ════════════════════════════════════════════════════════════════
 function createBRollSheet() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -296,7 +296,7 @@ function createBRollSheet() {
   sh.setColumnWidth(2, 170);
   sh.setColumnWidth(3, 280);
 
-  styleTitle(sh, 1, 3, 'THEO DOI BROLL THEO TUAN', PURPLE);
+  styleTitle(sh, 1, 3, 'THEO DOI BRoll THEO TUAN', PURPLE);
 
   var r = 2;
   for (var w = 0; w < WEEKS; w++) {
@@ -309,10 +309,10 @@ function createBRollSheet() {
     r++;
 
     var dataStart = r;
-    for (var t = 0; t < BROLL.length; t++) {
+    for (var t = 0; t < BRoll.length; t++) {
       var bg = (t % 2 === 0) ? ALT : WHITE;
       styleDataRow(sh, r, 3, bg);
-      sh.getRange(r, 1).setValue(BROLL[t]).setFontWeight('bold').setHorizontalAlignment('left').setFontColor('#1E293B');
+      sh.getRange(r, 1).setValue(BRoll[t]).setFontWeight('bold').setHorizontalAlignment('left').setFontColor('#1E293B');
       sh.getRange(r, 2).setValue(0).setHorizontalAlignment('center').setFontColor('#1E293B');
       sh.getRange(r, 3).setValue('').setHorizontalAlignment('left').setFontColor('#374151');
       r++;
