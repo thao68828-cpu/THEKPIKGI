@@ -2,8 +2,8 @@
 //  HỆ THỐNG BÁO CÁO HIỆU SUẤT NHÂN SỰ TOÀN DIỆN (FULL KỊCH BẢN MỚI)
 // ═══════════════════════════════════════════════════════════════
 
-var MEMBERS  = ['Vu Chi Khang', 'Ngo Thu Phuong', 'Le Phuong Thuy', 'Vu Dat', 'Hoang Van E'];
-var CHANNELS = ['An Binh VayVon', 'ThuyVayVon', 'VayVonDonGianDat', 'KhangVayHay', 'Phantichtaichinhchuyensau', 'Suthattaichinh'];
+var MEMBERS  = ['Vu Chi Khang', 'Ngo Thu Phuong', 'Le Phuong Thuy', 'Vu Dat'];
+var CHANNELS = ['An Binh VayVon', 'ThuyVayVon', 'VayVonDonGianDat', 'KhangVayHay', 'Phantichtaichinhchuyensau', 'Suthattaichinh','Quy Hoạch','BaoTheTinDung'];
 var BROLL    = ['Video nền (stock footage)', 'Infographic / Motion', 'Ảnh minh họa', 'Icon / Element đồ họa', 'Âm thanh / Nhạc nền', 'Template chỉnh sửa'];
 
 // BẠN CÓ THỂ TỰ ĐIỀN THÊM CÁC DẠNG KỊCH BẢN VÀO DANH SÁCH NÀY
@@ -31,15 +31,29 @@ function onOpen() {
 
 function setupSheets() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var names = ['Casestudy','Video & View','Kịch Bản','B-Roll', 'Tổng Hợp Tháng'];
+  var names = ['Casestudy','Video & View','Kịch Bản','B-Roll', 'Tổng Hợp Tháng', 'Lưu Trữ Kênh'];
   for (var i = 0; i < names.length; i++) {
     var old = ss.getSheetByName(names[i]);
     if (old) { try { ss.deleteSheet(old); } catch(e) {} }
   }
   Utilities.sleep(500);
-  createCasestudySheet(); createVideoViewSheet(); createKichBanSheet(); createBRollSheet();
+  createCasestudySheet(); createVideoViewSheet(); createKichBanSheet(); createBRollSheet(); createChannelArchiveSheet();
   SpreadsheetApp.flush();
   SpreadsheetApp.getUi().alert('Đã thiết lập xong! Dropdown Kịch Bản đã mở khóa, cho phép bạn tự do thêm Data.');
+}
+
+function createChannelArchiveSheet() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sh = ss.insertSheet('Lưu Trữ Kênh');
+  var headers = ['Tháng','Kênh','Tuần','Video HT','Video MT','% Video','Tổng View','KB HT','KB MT','% KB','Chi Tiết KB'];
+  sh.appendRow(headers);
+  sh.getRange(1, 1, 1, headers.length).setBackground(PURPLE).setFontColor(WHITE).setFontWeight('bold').setHorizontalAlignment('center');
+  sh.setRowHeight(1, 35);
+  sh.setColumnWidth(1, 90); sh.setColumnWidth(2, 190); sh.setColumnWidth(3, 75);
+  sh.setColumnWidth(4, 90); sh.setColumnWidth(5, 90); sh.setColumnWidth(6, 80);
+  sh.setColumnWidth(7, 100); sh.setColumnWidth(8, 75); sh.setColumnWidth(9, 75);
+  sh.setColumnWidth(10, 75); sh.hideColumns(11);
+  sh.setFrozenRows(1);
 }
 
 // ── 1. CÁC HÀM TẠO GIAO DIỆN SHEET ────────────────────────────────
@@ -214,7 +228,76 @@ function archiveMonth() {
   sh.getRange(rowIdx, 1, 1, rowData.length-1).setHorizontalAlignment('center');
   [2, 6, 11, 16].forEach(col => { sh.getRange(rowIdx, col).setBackground('#F0F4FF').setFontColor('#8B93A8'); });
 
+  _appendChannelArchive(ss, monthStr, data);
   ui.alert('Thành công! Đã chốt sổ và lưu trữ dữ liệu ' + monthStr);
+}
+
+function _appendChannelArchive(ss, monthStr, data) {
+  var sh = ss.getSheetByName('Lưu Trữ Kênh');
+  if (!sh) { createChannelArchiveSheet(); sh = ss.getSheetByName('Lưu Trữ Kênh'); }
+
+  // Build lookup: channel → week → VV data
+  var vvMap = {};
+  data.videoview.forEach(function(w) {
+    if (!w.channels) return;
+    w.channels.forEach(function(c) {
+      if (!vvMap[c.name]) vvMap[c.name] = {};
+      vvMap[c.name][w.week] = { done: c.done, target: c.target, pct: c.pct / 100, views: c.views };
+    });
+  });
+
+  // Build lookup: channel → week → KB data
+  var kbMap = {};
+  data.kichban.forEach(function(w) {
+    if (!w.channels) return;
+    w.channels.forEach(function(c) {
+      if (!kbMap[c.name]) kbMap[c.name] = {};
+      kbMap[c.name][w.week] = { done: c.done, target: c.target, pct: c.pct / 100, items: c.items || [] };
+    });
+  });
+
+  var rows = [];
+  CHANNELS.forEach(function(ch) {
+    for (var w = 1; w <= WEEKS; w++) {
+      var vv = (vvMap[ch] && vvMap[ch][w]) || { done: 0, target: 0, pct: 0, views: 0 };
+      var kb = (kbMap[ch] && kbMap[ch][w]) || { done: 0, target: 0, pct: 0, items: [] };
+      rows.push([monthStr, ch, 'Tuần ' + w, vv.done, vv.target, vv.pct, vv.views, kb.done, kb.target, kb.pct, JSON.stringify(kb.items)]);
+    }
+  });
+
+  if (!rows.length) return;
+  var startRow = sh.getLastRow() + 1;
+  sh.getRange(startRow, 1, rows.length, rows[0].length).setValues(rows);
+  sh.getRange(startRow, 6, rows.length, 1).setNumberFormat('0%');
+  sh.getRange(startRow, 10, rows.length, 1).setNumberFormat('0%');
+  sh.getRange(startRow, 7, rows.length, 1).setNumberFormat('#,##0');
+
+  // Tô màu xen kẽ theo nhóm kênh (mỗi kênh WEEKS dòng)
+  CHANNELS.forEach(function(_, ci) {
+    var bg = ci % 2 === 0 ? ALT : WHITE;
+    var r = startRow + ci * WEEKS;
+    sh.getRange(r, 1, WEEKS, 10).setBackground(bg);
+  });
+}
+
+function getChannelArchiveData() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sh = ss.getSheetByName('Lưu Trữ Kênh');
+  if (!sh) return [];
+  var vals = sh.getDataRange().getValues();
+  if (vals.length <= 1) return [];
+  var out = [];
+  for (var i = 1; i < vals.length; i++) {
+    var r = vals[i];
+    if (!r[0]) continue;
+    out.push({
+      month: String(r[0]), channel: String(r[1]), week: String(r[2]),
+      videoDone: Number(r[3]) || 0, videoTarget: Number(r[4]) || 0, videoPct: Number(r[5]) || 0,
+      views: Number(r[6]) || 0, kbDone: Number(r[7]) || 0, kbTarget: Number(r[8]) || 0, kbPct: Number(r[9]) || 0,
+      kbItems: r[10] ? (function(){ try{ return JSON.parse(r[10]); }catch(e){ return []; }})() : []
+    });
+  }
+  return out;
 }
 
 function getDashboardInit() {
